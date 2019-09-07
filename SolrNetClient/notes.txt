@@ -1,0 +1,8 @@
+﻿Data found here: http://www.hometheaterinfo.com/dvdlist.htm
+
+Configuring and running Solr
+Prerequisites: an installeted Java Virtual Machine
+1. Download Solr and upzip
+2. Drop the Solr_Conf/Schema.xml and Solr_Conf/solrconfig.xml into the <Solr Home>\example\solr\conf folder
+3. Open a command prompt and type java -jar start.jar
+4. Open a browser with http://localhost:8983/solr/admin to verify that Solr is running
